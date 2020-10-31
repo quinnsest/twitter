@@ -1,0 +1,84 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Main Styling */
+html,body {
+font-family: Georgia, 'Times New Roman', Times, serif;
+line-height: 2.5rem;
+}
+a {
+    color: black ; 
+    text-decoration: none;
+    font-weight: bold;
+}
+p {
+    font-size: 15px;
+}
+/* Navbar */
+#navbar {
+    display: block;
+    background: white;
+    font-weight: bolder;
+    font-size: larger;
+}
+#navbar a {
+    color: black;
+    
+}
+#navbar h1 {
+    float: right;
+    padding-top: 2rem;
+    margin: 2rem;
+   
+}
+#navbar h3 {
+    font-size: 10px;
+}
+#navbar ul {
+    list-style: none;
+    float: left;
+    padding: 100px;
+    margin-top: -5.5%;
+}
+
+.fa-twitter:before {
+    font-size: larger;
+    content: "\f099";
+    color: deepskyblue;
+}
+
+/* Search Twitter */
+#SearchTwitter a, ul {
+    display: block;
+    float: right;
+    padding: 50px;
+    margin-top: -20%;
+    text-decoration: none;
+
+}
+input[type=button], input[value=Tweet] {
+    padding: 5px;
+    border-radius: 150px;
+    background-color: #00acee;
+    color: white;
+    font-size: large;
+    border: none;
+    margin: 3px 2px;
+}
+input[type=borderbottom] {
+    border: 1px solid #000000;
+
+}
+hr {
+    width: 50%;
+    text-align: left;
+    margin-left: 0;
+    height: 7px;
+    color: #f8f8f8;
+    background: #d3d3d3;
+}
+    .i class="far fa-image" width: "100";
+  
